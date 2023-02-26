@@ -5,7 +5,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "",
         "chunks": [
-          "app/page:app/page"
+          "app/movie/[id]/page:app/movie/[id]/page"
         ],
         "async": false
       },
@@ -13,7 +13,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "*",
         "chunks": [
-          "app/page:app/page"
+          "app/movie/[id]/page:app/movie/[id]/page"
         ],
         "async": false
       },
@@ -21,7 +21,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/image.js",
         "name": "default",
         "chunks": [
-          "app/page:app/page"
+          "app/movie/[id]/page:app/movie/[id]/page"
         ],
         "async": false
       }
@@ -31,7 +31,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -39,7 +39,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "*",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       },
@@ -47,7 +47,7 @@ self.__RSC_MANIFEST={
         "id": "(sc_client)/./node_modules/next/dist/client/link.js",
         "name": "default",
         "chunks": [
-          "app/layout:app/layout"
+          "app/page:app/page"
         ],
         "async": false
       }
@@ -123,6 +123,32 @@ self.__RSC_MANIFEST={
       },
       "default": {
         "id": "(sc_client)/./app/components/NavItem.js",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./app/components/Search.js": {
+      "": {
+        "id": "(sc_client)/./app/components/Search.js",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./app/components/Search.js",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./app/components/Search.js",
         "name": "default",
         "chunks": [
           "app/layout:app/layout"
@@ -272,7 +298,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/movie/[id]/page:app/movie/[id]/page"
       ],
       "async": false
     },
@@ -280,7 +306,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/movie/[id]/page:app/movie/[id]/page"
       ],
       "async": false
     },
@@ -288,7 +314,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/page:app/page"
+        "app/movie/[id]/page:app/movie/[id]/page"
       ],
       "async": false
     }
@@ -298,7 +324,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "",
       "chunks": [
-        "app/page:app/page"
+        "app/movie/[id]/page:app/movie/[id]/page"
       ],
       "async": false
     },
@@ -306,7 +332,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "*",
       "chunks": [
-        "app/page:app/page"
+        "app/movie/[id]/page:app/movie/[id]/page"
       ],
       "async": false
     },
@@ -314,7 +340,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/image.js",
       "name": "default",
       "chunks": [
-        "app/page:app/page"
+        "app/movie/[id]/page:app/movie/[id]/page"
       ],
       "async": false
     }
@@ -324,7 +350,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -332,7 +358,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -340,7 +366,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -350,7 +376,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -358,7 +384,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     },
@@ -366,7 +392,7 @@ self.__RSC_MANIFEST={
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/layout:app/layout"
+        "app/page:app/page"
       ],
       "async": false
     }
@@ -442,6 +468,32 @@ self.__RSC_MANIFEST={
     },
     "default": {
       "id": "(app-client)/./app/components/NavItem.js",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
+  },
+  "/Users/jeromedoran/Mirror/applications/dev/web/next/next13/next13-imdb-clone/app/components/Search.js": {
+    "": {
+      "id": "(app-client)/./app/components/Search.js",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./app/components/Search.js",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./app/components/Search.js",
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
